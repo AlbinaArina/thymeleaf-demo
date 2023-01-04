@@ -14,10 +14,9 @@ public class WordController {
 
     {
         words = new ArrayList<>();
-        words.add(new Word("apple", "яблуко"));
-        words.add(new Word("banana", "банан"));
-        words.add(new Word("onion", "цибуля"));
-        words.add(new Word("cucumber", "огірок"));
+        words.add(new Word("apple", "яблуко", "https://www.kindpng.com/picc/m/372-3727789_caramel-apple-clip-art-red-apple-images-clip.png"));
+        words.add(new Word("banana", "банан", "https://www.kindpng.com/picc/m/128-1288078_banana-education-fruit-school-peeled-banana-cartoon-png.png"));
+        words.add(new Word("onion", "цибуля", "https://www.kindpng.com/picc/m/5-52172_onion-clipart-onion-slice-onion-clipart-hd-png.png"));words.add(new Word("cucumber", "огірок"));
         words.add(new Word("melon", "диня"));
         words.add(new Word("watermelon", "кавун"));
         words.add(new Word("pineapple", "ананас"));
@@ -26,13 +25,6 @@ public class WordController {
         words.add(new Word("corn", "кукурудза"));
         words.add(new Word("pepper", "перець"));
         words.add(new Word("grapes", "виноград"));
-
-//        Image image = null;
-//        URL url = new URL("http://bks6.books.google.ca/books?id=5VTBuvfZDyoC&printsec=frontcover&img=1& zoom=5&edge=curl&source=gbs_api");
-//        image = ImageIO.read(url);
-//
-//
-//        Image img = java.awt.Toolkit.getDefaultToolkit().getDefaultToolkit().createImage(imageURL);
     }
 
 
